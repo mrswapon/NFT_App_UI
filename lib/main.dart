@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:nft_app/routes/app_routes.dart';
-
-import 'views/screens/NftMarketplaceScreen/nft_marketplace_screen.dart';
 import 'views/screens/welcome_screen.dart';
 
 void main() {
