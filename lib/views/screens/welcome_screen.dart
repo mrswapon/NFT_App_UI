@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 import 'package:glassmorphism_ui/glassmorphism_ui.dart';
+import 'package:nft_app/routes/app_routes.dart';
 import 'package:nft_app/utils/app_constants.dart';
 import 'package:nft_app/views/widgets/custom_text.dart';
 import '../../utils/app_images.dart';
@@ -70,7 +72,9 @@ class WelcomeScreen extends StatelessWidget {
 
                     //=================================> Get Started Button <========================
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Get.toNamed(AppRoutes.nftMarketplaceScreen);
+                      },
                       child: Container(
                         width: 198.w,
                         height: 45.h,
